@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(38, 231, 167);
+}
+h3{
+  font-family: cursive;
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 5px;
+  
+}
+
+.Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+    background-color: black;
+    height:  445px;
+    padding-top: 0.01mm;
+                
+}
+.Chat{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    background-color: #0D0D0D;
+    width: 70%;
+    height: 100%;
+    /* width: 350px;
+    height:30px; */
+    contain: content;
+    /* padding: 7px 7px 7px 14px; */
+    align-self: baseline;
+    overflow-y: auto;
+    border: 1pt;
+    border-color: aliceblue;
+    border-style: solid;
+    /* z-index: -1; */
+    /* position: absolute; */
+  }
+.chatlist{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    color: red;
+    background-color: #0D0D0D;
+    width: 30%;
+    height: 100%;
+    /* padding: 1mm; */
+    align-self: start;
+    border: 1pt;
+    border-color: aliceblue;
+    border-style: solid;
+}
+.chatperson{
+    color: black;
+    background-color:#5A20CB;
+    max-height: 58px;
+    contain: content;
+    margin-top: 1px;
+    border: 1px;
+    border-radius: 5px;
+    border-color:orange;
+    
+}
+nav{
+  display: flex;
+  flex-direction: row;
+    background-color:#6A1B4D;
+    color: whitesmoke;
+    height: 50PX;
+    text-align: center;
+    margin-bottom: auto;
+    border: 1pt;
+    border-color: aliceblue;
+    border-style: solid;
+    contain: content;
+    
+}
+.recieved{
+  contain: content;
+  background-color: aliceblue;
+  margin-top: 5px;
+  width: 80%;
+  text-align: left;
+  align-self: flex-start;
+  border: 1pt;
+  border-radius: 10px;
+  border-color: white;
+  color: black;
+
+}
+.sent{
+  contain: content;
+  background-color: whitesmoke;
+  margin-top: 5px;
+  width: 80%;
+  text-align: left;
+  align-self: flex-end;
+  border: 1pt;
+  border-radius: 10px;
+  border-color: white;
+  color: black;
+}
+
+.newChatterbtn{
+  width: 60%;
+  display:flex; align-items: center; justify-content:space-evenly;
+  padding-top:15px; height:30px; background-color: #03203C;  
+  /* position: relative; z-index: -1 */
+}
