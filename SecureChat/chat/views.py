@@ -1,7 +1,7 @@
 from django.core.checks import messages
 from django.shortcuts import render
 from rest_framework import response
-# .. Access Token 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
+# .. Access Token 
 # Create your views here.
 from rest_framework.views import APIView
 from .models import *
